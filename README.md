@@ -16,13 +16,53 @@ This project builds and fine-tunes a **MobileNetV2** model for facial emotion re
 
 ## 📁 Project Structure
 
-emotion-detection-fer13-mobilenetv2/
-│
-├── Emotion_Detection_Using_MobileNetV2.ipynb # Training & evaluation notebook
-├── emotion_model.keras # Trained model saved in Keras format
-├── README.md # Project documentation
-├── requirements.txt # Required dependencies
-└── fer2013.csv # Dataset (if locally included)
+fer13-emotion-recognition/
+├── data/
+│   ├── train/
+│   │   ├── angry/
+│   │   │   ├── image_001.jpg
+│   │   │   ├── image_002.jpg
+│   │   │   └── ...
+│   │   ├── disgust/
+│   │   │   ├── image_001.jpg
+│   │   │   └── ...
+│   │   ├── fear/
+│   │   │   ├── image_001.jpg
+│   │   │   └── ...
+│   │   ├── happy/
+│   │   │   ├── image_001.jpg
+│   │   │   └── ...
+│   │   ├── neutral/
+│   │   │   ├── image_001.jpg
+│   │   │   └── ...
+│   │   ├── sad/
+│   │   │   ├── image_001.jpg
+│   │   │   └── ...
+│   │   └── surprise/
+│   │       ├── image_001.jpg
+│   │       └── ...
+│   └── test/
+│       ├── angry/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       ├── disgust/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       ├── fear/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       ├── happy/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       ├── neutral/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       ├── sad/
+│       │   ├── image_001.jpg
+│       │   └── ...
+│       └── surprise/
+│           ├── image_001.jpg
+│           └── ...
 
 ---
 
