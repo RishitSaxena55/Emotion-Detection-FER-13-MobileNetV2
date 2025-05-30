@@ -10,7 +10,7 @@ This project builds and fine-tunes a **MobileNetV2** model for facial emotion re
 - 🧠 **Task:** Facial Emotion Recognition
 - 🖼️ **Dataset:** FER-2013 (Kaggle)
 - 🧪 **Emotions Detected:** Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
-- 📈 **Metrics Tracked:** Accuracy, Loss, Confusion Matrix
+- 📈 **Metrics Tracked:** Accuracy, Loss
 
 ---
 
